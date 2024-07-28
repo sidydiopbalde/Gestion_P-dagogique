@@ -1,0 +1,28 @@
+{
+    "name": "sidydiopbalde/gestion_pedagogique",
+    "autoload": {
+        "psr-4": {
+        "App\\": "src/app/",
+        "App\\Controller\\":"src/app/controller/",
+        "App\\Model\\":"src/app/model/",
+        "App\\Entity\\":"src/app/entity/",
+        "Core\\":"src/core/",
+        "Core\\Entity\\":"src/core/entity/",
+        "Core\\Database\\":"src/core/database/",
+        "Core\\Model\\":"src/core/model/",
+        "Core\\Route\\":"src/core/Route/",
+        "Core\\Validator\\":"src/core/Validator/",
+        "Config\\":"src/config/"
+        }
+    },
+    "authors": [
+        {
+            "name": "sidy Diop Balde",
+            "email": "sididiop53@gmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.6",
+        "symfony/yaml": "^6.4"
+    }
+}
